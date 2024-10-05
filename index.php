@@ -7,3 +7,5 @@
 <a href="01-basico/operadores_aritmeticos.php">Operadores Aritmeticos</a>
 <a href="01-basico/asignacion.php">Operadores Asignacion</a>
 <a href="01-basico/asignacion_por_referencia.php">Asignacion por referencia</a>
+<a href="01-basico/operadores_de_comparacion.php">Operadores de comparacion</a>
+<a href="01-basico/operadores_logicos.php">Operadores Logicos</a>
