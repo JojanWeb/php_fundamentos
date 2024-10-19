@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Get</title>
+</head>
+<body>
+  
+  <form action="controlador.php" method="post" >
+    <div>
+      <label for="nombre">Ingrese su nombre: </label>
+      <input type="text" name="nombre" id="nombre">
+    </div>
+    <div>
+      <label for="apellido">Ingrese su apellido: </label>
+      <input type="text" name="apellido" id="apellido">
+    </div>
+
+    <div>
+      <label for="edad">Ingrese su edad: </label>
+      <input type="number" name="edad" id="edad">
+    </div>
+
+    <div>
+      <label for="numero">Ingrese su numero: </label>
+      <input type="number" name="numero" id="numero">
+    </div>
+
+    <div>
+      <label for="html">HTML: </label>
+      <input type="checkbox" name="checkbox[]" id="html">
+
+      <label for="php">PHP: </label>
+      <input type="checkbox" name="checkbox[]" id="php">
+
+      <label for="python">PYTHON: </label>
+      <input type="checkbox" name="checkbox[]" id="python">
+
+      <label for="java">JAVA: </label>
+      <input type="checkbox" name="checkbox[]" id="java">
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
