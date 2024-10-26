@@ -15,4 +15,4 @@
 <a href="01-basico/condicionales_anidados.php">Condicionales anidados</a>
 <a href="01-basico/switch_keys.php">switch_keys</a>
 <a href="01-basico/bucle-while.php">Bucle While</a>
-<a href="formularios/get.php">Formularios</a>
+<a href="formularios/get.html">Formularios</a>

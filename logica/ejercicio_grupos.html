@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupos</title>
+  <style>
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 500px;
+    }
+
+    input{
+      height: 30px;
+    }
+
+    label{
+      display: flex;
+      align-items: center;
+    }
+
+    button{
+
+    }
+  </style>
+</head>
+<body>
+  <form action="ejercicio_grupos.php" method="post">
+    <input type="text" name="nombre" id="nombre">
+
+    <label for="hombre">
+      Hombre
+      <input type="radio" name="sexo" id="hombre" value="hombre">
+    </label>
+
+    <label for="mujer">
+      Mujer
+    <input type="radio" name="sexo" id="mujer" value="mujer">
+    </label>
+    
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
+
+en una farmacia aplica al precio de los remedios el 10% de descuento, hacer un programa que ingrese el costo y calcule el descuento  y preico final
