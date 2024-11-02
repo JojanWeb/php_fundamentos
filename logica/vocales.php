@@ -15,8 +15,3 @@ function cadena_sin_vocales($palabra){
 $resultado = cadena_sin_vocales("HOLÁ");
 
 // echo $resultado;
-
-Edixon David Castillo Torres 1140424793
-
-
-crea una funcion para calcular cuantas silabas tiene una palabra
