@@ -2,7 +2,6 @@
 
 // crea una funcion para calcular cuantas silabas tiene una palabra
 
-$texto = "AaDsSoO1a345";
 
 // $expresion = "/PRUEBA/i";
 // $expresion = "/^PRUEBA/i";
@@ -15,18 +14,23 @@ $texto = "AaDsSoO1a345";
 // $RESULTADO = preg_match_all($expresion, $texto,$coincidencias, PREG_OFFSET_CAPTURE);
 
 // if ($RESULTADO){
-//   echo "Si tiene resultado";
-// }else{
-//   echo "NO tiene resultado";
-// }
-
-// echo "<pre>";
-// print_r($coincidencias);
-// echo "</pre>";
-
-// $expresion = "/(?=(?:.*[A-Z]){4})(?=(?:.*\d){4})/";  
-$expresion = "/((?:.*?[A-Z]){4}).*((?:.*?\d){4})/";  
-
+  //   echo "Si tiene resultado";
+  // }else{
+    //   echo "NO tiene resultado";
+    // }
+    
+    // echo "<pre>";
+    // print_r($coincidencias);
+    // echo "</pre>";
+    
+    // $expresion = "/(?=(?:.*[A-Z]){4})(?=(?:.*\d){4})/";  
+    
+$texto = "aha1hA2";
+    
+// $expresion = "/((?:.*?[A-Z]){4}).*((?:.*?\d){4})/";  
+$expresion = "/^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*[\W]).{8,16}$/";  
+$expresion = "/(?=(?:.*[a-z]){2,})(?=(?:.*\d){2,})/";
+    
 $RESULTADO = preg_match_all($expresion, $texto,$coincidencias, PREG_OFFSET_CAPTURE);
 
 if ($RESULTADO){
@@ -44,7 +48,7 @@ echo "</pre>";
 //     echo "El texto tiene al menos 4 letras mayúsculas y 4 números.";
 // } else {
 //     echo "El texto no cumple con los requisitos.";
-// }
+// } 
 
 
 
